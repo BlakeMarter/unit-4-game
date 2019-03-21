@@ -1,4 +1,4 @@
-.wallpaper { 
+.background { 
    background-image: url("../images/crystalcave.jpg");
    background-size: 100%;
    background-repeat: no-repeat;
@@ -16,7 +16,12 @@ body{
 	margin: 0;
 }
 
-.instruction {
+.header { 
+	font-family: 'Spectral SC', serif;
+	color: #f2f2f5;
+  }
+
+.details {
 	background-color: #f2f2f5; 
 	border: 2px solid black;
 	padding: 2%;
@@ -28,7 +33,7 @@ body{
 	margin-bottom: -1.5%;
 }
 
-.randomNumber {
+.numGoal {
 	background-color: #f2f2f5; 
 	border: 2px solid black;
 	padding: 3%;
@@ -38,7 +43,7 @@ body{
 	font-family: 'Spectral SC', serif;
 }
 
-.totalWL { 
+.results { 
 	background-color: #f2f2f5; 
 	border: 2px solid black;
 	padding: 2.28%; 
@@ -51,7 +56,7 @@ body{
     height: 100px;
 }
 
- .totalScore {
+ .totalScoreText {
  	background-color: #f2f2f5; 
  	border: 2px solid black; 
 	opacity: 0.9; 
@@ -61,7 +66,7 @@ body{
 	
  }
 
- .scoreDisplay {
+ .userScore {
 	background-color: #f2f2f5; 
  	border: 2px solid black;
 	padding: 3%; 
@@ -72,10 +77,7 @@ body{
  }
 
 
- .header { 
-	font-family: 'Spectral SC', serif;
-	color: #f2f2f5;
-  }
+
 
   .wins, .losses { 
 	padding: 2%;
